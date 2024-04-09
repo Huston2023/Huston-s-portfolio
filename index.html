@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="hero">
+		<nav>
+		  <a href="#" class="logo"><img src="image/1.png" class="logo-white"
+			></a>	
+		
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#portfolio">PORTFOLIO</a></li>
+			<li><a href="#services">SERVICES</a></li>
+            <li><a href="#hireme">HIRE ME</a></li>
+
+			
+  </ul>
+  
+	<img src="image/moon.png" id="icon">
+
+
+</nav>
+  <div class="detel">
+    <h1>Hello, my name is </h1>
+  	<h2>Faisal <span>Huston</span></h2>
+  	<p>I'am a Web Developer
+  	</p>
+  	<a href="#">DOWNLOAD CV</a>
+</div>
+<div class="images">
+<img src="image/shape.png" class="shape">
+<img src="image/huston.png" class="korean">	
+</div>
+
+</div>
+<script>
+    var icon = document.getElementById("icon");
+	
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+		if(document.body.classList.contains("dark-theme")){
+			icon.scr = "image/sun.png";
+		}
+		else{
+			icon.src = "image/moon.png";
+		}
+    }
+</script>
+ </body>
+</html>
